@@ -1,5 +1,5 @@
 function update(button: number, person: Person | null) {
-  if (button == 1) {
+  if (button === 1) {
     if (person) {
       if (person.age != null) {
         if (person.experience != null) {
